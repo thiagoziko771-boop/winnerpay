@@ -24743,13 +24743,7 @@ function uT() {
       className: "fixed right-4 top-1/2 z-50 cursor-pointer transition-transform duration-300 ease-in-out",
       style: {
         transform: `translateY(calc(-50% + ${r}px))`
-      },
-      "aria-label": "VLibras - Acessibilidade em Libras",
-      children: l.jsx("img", {
-        src: "https://vlibras.gov.br/app//assets/access_icon.svg",
-        alt: "VLibras",
-        className: "w-10 h-10"
-      })
+      
     }), l.jsx("button", {
       onClick: () => window.scrollTo({
         top: 0,
